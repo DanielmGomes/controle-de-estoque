@@ -7,6 +7,9 @@
 @stop
 
 @section('content')
+
+@include('sweetalert::alert')
+
     <p>Welcome to this beautiful admin panel.</p>
 
 

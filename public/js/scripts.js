@@ -1,8 +1,19 @@
 /* --- funções datatable js --- */
 $(document).ready(function() {
-  $('#listProvider').DataTable( {
+  $('#list').DataTable( {
     stateSave: true
   });
 });
 
-/* --- alerta de exclusao de dados--- */
+/* --- preview de imagem --- */
+
+$(function(){
+  $('#image').change(function(){
+    const file = $(this)[0].files[0]
+    const fileReader = new FileReader()
+    fileReader.onloadend = function(){
+      $('#img').attr('src', fileReader.result)
+    }
+    fileReader.readAsDataURL(file)
+  })
+})

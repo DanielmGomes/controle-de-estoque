@@ -3,12 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Validation\ValidationException;
 use App\Models\Provider;
 use App\Models\User;
-use Illuminate\Validation\ValidationException;
-
-
-
 
 class ProvidersController extends Controller
 {

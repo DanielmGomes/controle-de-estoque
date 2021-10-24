@@ -255,14 +255,18 @@ return [
                 [
                     'text'    => 'Cadastrar',
                     'url'     => '/provider/create', 
-                ],
+                ]
+            ],
+        ],
+
+        [
+            'text' => 'Produtos',
+            'icon' => 'fas fa-archive',
+            'submenu' => [
+
                 [
-                    'text' => 'Editar',
-                    'url' => '#',
-                ],
-                [
-                    'text' => 'Deletar',
-                    'url' => '#'
+                    'text' => 'Cadastrar',
+                    'url' => '/product/create',
                 ]
 
             ],

@@ -151,7 +151,7 @@
 
       <!-- listando fornecedores cadastrados -->
       <div class="card-body">
-        <table id="listProvider" class="display" style="width:100%">
+        <table id="list" class="display" style="width:100%">
           <thead>
               <tr>
                   <th>#</th>
